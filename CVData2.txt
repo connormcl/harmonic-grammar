@@ -1,0 +1,10 @@
+9 pairs
+CV    CV    225
+CVC   CVC     160
+CVCC    CVCC    15
+CCV   CCV     2
+CCVC    CCVC    2
+CCVCC   CCVCC   1
+V   V     20
+VC    VC    60
+VCC   VCC     5

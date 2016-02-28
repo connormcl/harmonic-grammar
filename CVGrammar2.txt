@@ -1,0 +1,162 @@
+6	constraints								
+constraint	[1]:	*Coda	1						
+constraint	[2]:	Ons	1						
+constraint	[3]:	*CC	1						
+constraint	[4]:	*CO	1						
+constraint	[5]:	Max	0						
+constraint	[6]:	Dep	0						
+
+9	tableaus								
+input	[1]:	CV	16						
+	candidate	[1]:	CV   	0	0	0	0	0	0
+	candidate	[2]:	CVC  	1	0	0	0	0	1
+	candidate	[3]:	CVCC 	1	0	1	0	0	2
+	candidate	[4]:	CCV  	0	0	0	1	0	1
+	candidate	[5]:	CCVC 	1	0	0	1	0	2
+	candidate	[6]:	CCVCC	1	0	1	1	0	3
+	candidate	[7]:	V      	0	1	0	0	1	0
+	candidate	[8]:	VC   	1	1	0	0	1	1
+	candidate	[9]:	VCC  	1	1	1	0	1	2
+	candidate	[10]:	CVCV  	0	0	0	0	0	2
+	candidate	[11]:	VCV  	0	1	0	0	0	1
+	candidate	[12]:	CVCVC  	1	0	0	0	0	3
+	candidate	[13]:	CVCCV  	1	0	0	0	0	3
+	candidate	[14]:	VCVC  	1	1	0	0	0	2
+	candidate	[15]:	VCCV  	1	1	0	0	0	2
+	candidate	[16]:	CVCVCVC  	1	0	0	0	0	5
+input	[2]:	CVC	16						
+	candidate	[1]:	CV   	0	0	0	0	1	0
+	candidate	[2]:	CVC  	1	0	0	0	0	0
+	candidate	[3]:	CVCC 	1	0	1	0	0	1
+	candidate	[4]:	CCV  	0	0	0	1	1	1
+	candidate	[5]:	CCVC 	1	0	0	1	0	1
+	candidate	[6]:	CCVCC	1	0	1	1	0	2
+	candidate	[7]:	V      	0	1	0	0	2	0
+	candidate	[8]:	VC   	1	1	0	0	1	0
+	candidate	[9]:	VCC  	1	1	1	0	1	2
+	candidate	[10]:	CVCV  	0	0	0	0	0	1
+	candidate	[11]:	VCV  	0	1	0	0	1	1
+	candidate	[12]:	CVCVC  	1	0	0	0	0	2
+	candidate	[13]:	CVCCV  	1	0	0	0	0	2
+	candidate	[14]:	VCVC  	1	1	0	0	0	1
+	candidate	[15]:	VCCV  	1	1	0	0	1	2
+	candidate	[16]:	CVCVCVC  	1	0	0	0	0	4
+input	[3]:	V	16						
+	candidate	[1]:	CV   	0	0	0	0	0	1
+	candidate	[2]:	CVC  	1	0	0	0	0	2
+	candidate	[3]:	CVCC 	1	0	1	0	0	3
+	candidate	[4]:	CCV  	0	0	0	1	0	2
+	candidate	[5]:	CCVC 	1	0	0	1	0	3
+	candidate	[6]:	CCVCC	1	0	1	1	0	4
+	candidate	[7]:	V      	0	1	0	0	0	0
+	candidate	[8]:	VC   	1	1	0	0	0	1
+	candidate	[9]:	VCC  	1	1	1	0	0	2
+	candidate	[10]:	CVCV  	0	0	0	0	0	3
+	candidate	[11]:	VCV  	0	1	0	0	0	2
+	candidate	[12]:	CVCVC  	1	0	0	0	0	4
+	candidate	[13]:	CVCCV  	1	0	0	0	0	4
+	candidate	[14]:	VCVC  	1	1	0	0	0	3
+	candidate	[15]:	VCCV  	1	1	0	0	0	3
+	candidate	[16]:	CVCVCVC  	1	0	0	0	0	6
+input	[4]:	VC	16						
+	candidate	[1]:	CV   	0	0	0	0	1	1
+	candidate	[2]:	CVC  	1	0	0	0	0	1
+	candidate	[3]:	CVCC 	1	0	1	0	0	2
+	candidate	[4]:	CCV  	0	0	0	1	1	2
+	candidate	[5]:	CCVC 	1	0	0	1	0	2
+	candidate	[6]:	CCVCC	1	0	1	1	0	3
+	candidate	[7]:	V      	0	1	0	0	1	0
+	candidate	[8]:	VC   	1	1	0	0	0	0
+	candidate	[9]:	VCC  	1	1	1	0	0	1
+	candidate	[10]:	CVCV  	0	0	0	0	0	2
+	candidate	[11]:	VCV  	0	1	0	0	0	1
+	candidate	[12]:	CVCVC  	1	0	0	0	0	3
+	candidate	[13]:	CVCCV  	1	0	0	0	0	3
+	candidate	[14]:	VCVC  	1	1	0	0	0	2
+	candidate	[15]:	VCCV  	1	1	0	0	0	2
+	candidate	[16]:	CVCVCVC  	1	0	0	0	0	5
+input	[5]:	CVCC	16						
+	candidate	[1]:	CV   	0	0	0	0	2	0
+	candidate	[2]:	CVC  	1	0	0	0	1	0
+	candidate	[3]:	CVCC 	1	0	1	0	0	0
+	candidate	[4]:	CCV  	0	0	0	1	2	1
+	candidate	[5]:	CCVC 	1	0	0	1	1	1
+	candidate	[6]:	CCVCC	1	0	1	1	0	1
+	candidate	[7]:	V      	0	1	0	0	3	0
+	candidate	[8]:	VC   	1	1	0	0	2	0
+	candidate	[9]:	VCC  	1	1	1	0	1	0
+	candidate	[10]:	CVCV  	0	0	0	0	1	1
+	candidate	[11]:	VCV  	0	1	0	0	2	1
+	candidate	[12]:	CVCVC  	1	0	0	0	0	1
+	candidate	[13]:	CVCCV  	1	0	0	0	0	1
+	candidate	[14]:	VCVC  	1	1	0	0	1	1
+	candidate	[15]:	VCCV  	1	1	0	0	1	1
+	candidate	[16]:	CVCVCVC  	1	0	0	0	0	3
+input	[6]:	VCC	16						
+	candidate	[1]:	CV   	0	0	0	0	2	1
+	candidate	[2]:	CVC  	1	0	0	0	1	1
+	candidate	[3]:	CVCC 	1	0	1	0	0	1
+	candidate	[4]:	CCV  	0	0	0	1	2	2
+	candidate	[5]:	CCVC 	1	0	0	1	1	2
+	candidate	[6]:	CCVCC	1	0	1	1	0	2
+	candidate	[7]:	V      	0	1	0	0	2	0
+	candidate	[8]:	VC   	1	1	0	0	1	0
+	candidate	[9]:	VCC  	1	1	1	0	0	0
+	candidate	[10]:	CVCV  	0	0	0	0	1	2
+	candidate	[11]:	VCV  	0	1	0	0	1	1
+	candidate	[12]:	CVCVC  	1	0	0	0	0	2
+	candidate	[13]:	CVCCV  	1	0	0	0	0	2
+	candidate	[14]:	VCVC  	1	1	0	0	0	1
+	candidate	[15]:	VCCV  	1	1	0	0	0	1
+	candidate	[16]:	CVCVCVC  	1	0	0	0	0	4
+input	[7]:	CCVC	16						
+	candidate	[1]:	CV   	0	0	0	0	2	0
+	candidate	[2]:	CVC  	1	0	0	0	1	0
+	candidate	[3]:	CVCC 	1	0	1	0	1	1
+	candidate	[4]:	CCV  	0	0	0	1	1	0
+	candidate	[5]:	CCVC 	1	0	0	1	0	0
+	candidate	[6]:	CCVCC	1	0	1	1	0	1
+	candidate	[7]:	V      	0	1	0	0	3	0
+	candidate	[8]:	VC   	1	1	0	0	2	0
+	candidate	[9]:	VCC  	1	1	1	0	2	1
+	candidate	[10]:	CVCV  	0	0	0	0	1	1
+	candidate	[11]:	VCV  	0	1	0	0	2	1
+	candidate	[12]:	CVCVC  	1	0	0	0	0	1
+	candidate	[13]:	CVCCV  	1	0	0	0	1	2
+	candidate	[14]:	VCVC  	1	1	0	0	1	1
+	candidate	[15]:	VCCV  	1	1	0	0	1	1
+	candidate	[16]:	CVCVCVC  	1	0	0	0	0	3
+input	[8]:	CCV	16						
+	candidate	[1]:	CV   	0	0	0	0	1	0
+	candidate	[2]:	CVC  	1	0	0	0	1	1
+	candidate	[3]:	CVCC 	1	0	1	0	1	2
+	candidate	[4]:	CCV  	0	0	0	1	0	0
+	candidate	[5]:	CCVC 	1	0	0	1	0	1
+	candidate	[6]:	CCVCC	1	0	1	1	0	2
+	candidate	[7]:	V      	0	1	0	0	2	0
+	candidate	[8]:	VC   	1	1	0	0	2	1
+	candidate	[9]:	VCC  	1	1	1	0	2	2
+	candidate	[10]:	CVCV  	0	0	0	0	0	1
+	candidate	[11]:	VCV  	0	1	0	0	1	1
+	candidate	[12]:	CVCVC  	1	0	0	0	0	2
+	candidate	[13]:	CVCCV  	1	0	0	0	0	2
+	candidate	[14]:	VCVC  	1	1	0	0	1	2
+	candidate	[15]:	VCCV  	1	1	0	0	0	1
+	candidate	[16]:	CVCVCVC  	1	0	0	0	0	4
+input	[9]:	CCVCC	16						
+	candidate	[1]:	CV   	0	0	0	0	3	0
+	candidate	[2]:	CVC  	1	0	0	0	2	0
+	candidate	[3]:	CVCC 	1	0	1	0	1	0
+	candidate	[4]:	CCV  	0	0	0	1	2	0
+	candidate	[5]:	CCVC 	1	0	0	1	1	0
+	candidate	[6]:	CCVCC	1	0	1	1	0	0
+	candidate	[7]:	V      	0	1	0	0	4	0
+	candidate	[8]:	VC   	1	1	0	0	3	0
+	candidate	[9]:	VCC  	1	1	1	0	2	0
+	candidate	[10]:	CVCV  	0	0	0	0	2	1
+	candidate	[11]:	VCV  	0	1	0	0	3	1
+	candidate	[12]:	CVCVC  	1	0	0	0	1	1
+	candidate	[13]:	CVCCV  	1	0	0	0	1	1
+	candidate	[14]:	VCVC  	1	1	0	0	2	1
+	candidate	[15]:	VCCV  	1	1	0	0	2	1
+	candidate	[16]:	CVCVCVC  	1	0	0	0	0	2
